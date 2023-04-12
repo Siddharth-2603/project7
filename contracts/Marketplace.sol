@@ -385,15 +385,15 @@ contract Marketplace is ReentrancyGuard {
         return IdToAuction[_auctionId];
     }
 }
-// struct Auction{
-//         uint id ;
-//         bool start;
-//         bool end;
-//         uint endAt;
-//         address highestBidder;
-//         uint highestBid;
-//         address payable seller;
-//         uint nftId;
-//         address nftAddress;
+struct Auction{
+         uint id ;
+         bool start;
+         bool end;
+         uint endAt;
+         address highestBidder;
+         uint highestBid;
+         address payable seller;
+         uint nftId;
+         address nftAddress;
 
-//     }
+     }
