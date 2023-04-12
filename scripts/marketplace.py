@@ -151,11 +151,11 @@ def endAuction():
     """
 def main():
     mintNft()
-    #putProductToSale()
-    #purchaseItem()
-    #getSoldProducts()
-    #getProducOverview()
-    #getUnSoldProducts()
+    putProductToSale()
+    purchaseItem()
+    getSoldProducts()
+    getProducOverview()
+    sgetUnSoldProducts()
     createAuction()
     bid()
     endAuction()
